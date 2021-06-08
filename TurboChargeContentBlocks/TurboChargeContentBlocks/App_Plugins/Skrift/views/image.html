@@ -1,0 +1,11 @@
+﻿<button type="button" ng-click="block.edit()" class="btn-reset umb-outline blockelement-labelblock-editor blockelement__draggable-element">
+    <div ng-controller="imageBlockController" class="content-block-image">
+        <div ng-if="imageUrl">
+            <figure>
+                <img ng-src="{{imageUrl}}" />
+                <figcaption ng-bind-html="block.data.imageCaption"></figcaption>
+            </figure>
+        </div>
+        <div ng-if="!imageUrl">[no image selected]</div>
+    </div>
+</button>

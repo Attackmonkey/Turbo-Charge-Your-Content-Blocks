@@ -1,0 +1,8 @@
+﻿{
+  "javascript": [
+    "~/App_Plugins/Skrift/js/blocks.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/Skrift/css/block-styles.css"
+  ]
+}

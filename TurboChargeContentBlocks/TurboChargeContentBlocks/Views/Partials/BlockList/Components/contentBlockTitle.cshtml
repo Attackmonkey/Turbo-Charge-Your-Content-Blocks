@@ -1,0 +1,8 @@
+﻿@using ContentModels = Umbraco.Web.PublishedModels
+@model Umbraco.Core.Models.Blocks.BlockListItem
+
+@{ 
+    var block = Model.Content as ContentModels.ContentBlockTitle;
+}
+
+<h2>@block.TitleText</h2>
